@@ -5,7 +5,7 @@ let secretValue = Math.floor(1 + Math.random() * 10).toString();
 let numbers = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'];
 
 //Create testNumber object holding all the logic
-{
+module.exports = {
     testNumber: (input) => {
         if (input === 'quit') {
             process.stdout.write('Ok. Bye!\n')
